@@ -13,6 +13,10 @@
 	</head>
 	<body class="is-preload">
 
+		<div class="fb-customerchat"
+			page_id="105186181211417">
+		</div>
+
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
 
@@ -178,6 +182,18 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script>
+				window.fbAsyncInit = function() {
+				  FB.init({
+					appId            : '190910228935872',
+					autoLogAppEvents : true,
+					xfbml            : true,
+					version          : 'v7.0'
+				  });
+				};
+			</script>
+			<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
 
 	</body>
 </html>
