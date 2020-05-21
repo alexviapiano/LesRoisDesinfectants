@@ -3505,7 +3505,7 @@ input, select, textarea {
 			bottom: 50%;
 			right: 50%;
 			width: auto;
-			height: auto;
+			height: 50%;
 			min-width: 100%;
 			min-height: 100%;
 			overflow: hidden;
@@ -3532,10 +3532,18 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (min-width: 736px) {
 
-			#banner video {
-				display: none;
+			#banner .videoDesktop {
+				display: flex !important;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#banner .videoMobile {
+				display: flex !important;
 			}
 
 		}
