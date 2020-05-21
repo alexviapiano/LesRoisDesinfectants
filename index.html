@@ -6,10 +6,11 @@
 -->
 <html>
 	<head>
-		<title>	Les Rois Desinfectants</title>
+		<title>Les Rois Desinfectants</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<meta name="description" content="PROFESSIONAL COMMERCIAL DISINFECTION & CLEANING SERVICES" />	
 	</head>
 	<body class="is-preload">
 
@@ -22,12 +23,11 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="tel:514-795-3382" class="logo">Call us at: <span>514-795-3382</span></a>
+						<a href="tel:514-795-3382" class="logo"><span>Call us at:</span> 514-795-3382</a>
 						<nav>
 							<ul>
+								<li><a href="fr.html">FR</a></li>
 								<!-- <li><a href="#menu">Menu</a></li> -->
-								<li><a href="fr.html">fr</a></li>
-
 							</ul>
 						</nav>
 					</header>
@@ -54,7 +54,7 @@
 								& CLEANING SERVICES</p>
 							</header>
 							<ul class="actions special">
-								<li><a href="#" class="button primary large">Get a Free Estimation!</a></li>
+								<li><a href="#cta" class="button primary large">Get a Free Estimation!</a></li>
 								
 							</ul>
 						</div>
@@ -155,12 +155,63 @@
 						<!-- CTA -->
 							<section id="cta" class="main special">
 								<div class="inner">
-									<p>Sed varius suspendisse dictum leo ipsum amet pellentesque<br />
-									fusce ac hendrerit consectetur tempor lorem ipsum.</p>
-									<ul class="actions stacked special">
-										<li><a href="#" class="button primary large">Get Started</a></li>
-										<li><a href="#" class="button large">Learn More</a></li>
-									</ul>
+									
+									<!-- Form -->
+									<h3>Form</h3>
+
+									<form  method="post" action="https://formspree.io/info@lesroisdesinfectants.ca">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall">
+												<input type="text" name="name" id="name" value="" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<input type="email" name="email" id="email" value="" placeholder="Email" />
+											</div>
+											<!-- Break -->
+											<div class="col-12">
+												<select name="category" id="category">
+													<option value="">- Category -</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<!-- Break -->
+											<div class="col-4 col-12-small">
+												<input type="radio" id="priority-low" name="priority" checked>
+												<label for="priority-low">Low</label>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="priority-normal" name="priority">
+												<label for="priority-normal">Normal</label>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="priority-high" name="priority">
+												<label for="priority-high">High</label>
+											</div>
+											<!-- Break -->
+											<div class="col-6 col-12-small">
+												<input type="checkbox" id="copy" name="copy">
+												<label for="copy">Email me a copy</label>
+											</div>
+											<div class="col-6 col-12-small">
+												<input type="checkbox" id="human" name="human" checked>
+												<label for="human">I am a human</label>
+											</div>
+											<!-- Break -->
+											<div class="col-12">
+												<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+											<!-- Break -->
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" class="primary" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
 								</div>
 							</section>
 

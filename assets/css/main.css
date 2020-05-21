@@ -2831,6 +2831,7 @@ input, select, textarea {
 
 	.spotlight .image {
 		background-color: none;
+		margin-bottom: 4em;
 	}
 
 		.spotlight .image:before {
