@@ -2753,7 +2753,7 @@ input, select, textarea {
 
 			.spotlight .image:before {
 				content: '';
-				display: block;
+				display: none;
 				border-radius: 0.5em 0.5em 0 0;
 				border: solid 2px;
 				border-bottom: 0;
@@ -2762,7 +2762,7 @@ input, select, textarea {
 
 			.spotlight .image:after {
 				content: '';
-				display: block;
+				display: none;
 				position: absolute;
 				border-radius: 0.5em;
 				height: 0.25em;
@@ -2781,7 +2781,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.75s;
 				-ms-transition-delay: 0.75s;
 				transition-delay: 0.75s;
-				border-radius: 0;
+				border-radius: 25px;
 				width: 16em;
 				height: 17em;
 			}
@@ -2796,6 +2796,7 @@ input, select, textarea {
 			.spotlight.alt .image {
 				margin-left: 0;
 				margin-right: 4em;
+				margin-bottom: 4em;
 			}
 
 		.spotlight.inactive .image {
@@ -2829,7 +2830,7 @@ input, select, textarea {
 		}
 
 	.spotlight .image {
-		background-color: #eaeaea;
+		background-color: none;
 	}
 
 		.spotlight .image:before {
