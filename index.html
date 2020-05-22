@@ -13,12 +13,9 @@
 		<link rel="icon" href="images/favicon.ico" type="image/png" />
 		<meta name="description" content="PROFESSIONAL COMMERCIAL DISINFECTION & CLEANING SERVICES" />	
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+		<script src="assets/js/detectizr.min.js"></script>
 	</head>
 	<body class="is-preload">
-
-		<div class="fb-customerchat"
-			page_id="105186181211417">
-		</div>
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
@@ -61,7 +58,24 @@
 							</ul>
 						</div>
 						<a href="#one" class="more">Learn More</a>
-						<video src="images/bannerMobile.mp4" muted autoplay loop playsinline></video>
+
+						<video loop playsinline autoplay muted poster="images/banner.jpg">
+							<source src="images/banner.mp4" type="video/mp4">
+							<source src="images/banner.ogg" type="video/ogg">
+							<source src="images/banner.webm" type="video/webm">
+						</video>
+
+						<!-- <span class="picture-banner" style="display: none;">
+							<img class="banner-background" src="images/banner.jpg"/>
+						</span> -->
+	
+						<!-- <span class="video-banner">
+							<video width="100%" loop playsinline autoplay muted preload="yes">
+								<source src="images/banner.mp4" type="video/mp4">
+								<source src="images/banner.ogg" type="video/ogg">
+								<source src="images/banner.webm" type="video/webm">
+							</video>
+						</span> -->
 					</section>
 
 				<!-- Wrapper -->
@@ -241,17 +255,11 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-			<script>
-				window.fbAsyncInit = function() {
-				  FB.init({
-					appId            : '190910228935872',
-					autoLogAppEvents : true,
-					xfbml            : true,
-					version          : 'v7.0'
-				  });
-				};
-			</script>
-			<script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
-
+			<!-- <script>
+				Detectizr.detect({detectScreen: true});
+				if (Detectizr.browser.name == 'safari' || Detectizr.device.type == 'mobile' || Detectizr.os.name == 'ios' || Detectizr.device.model == 'iphone' || Detectizr.device.model == 'android') {
+					$('body').toggleClass('safari', true);
+				}
+			</script> -->
 	</body>
 </html>

@@ -3662,3 +3662,11 @@ input, select, textarea {
 		min-height: 100vh;
 		opacity: 1;
 	}
+
+	.safari .picture-banner {
+		display: block !important;
+	}
+
+	.safari .video-banner {
+		display: none !important;
+	}
