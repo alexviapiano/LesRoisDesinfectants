@@ -59,23 +59,13 @@
 						</div>
 						<a href="#one" class="more">Learn More</a>
 
-						<video loop playsinline autoplay muted poster="images/banner.jpg">
-							<source src="images/banner.mp4" type="video/mp4">
-							<source src="images/banner.ogg" type="video/ogg">
-							<source src="images/banner.webm" type="video/webm">
-						</video>
-
-						<!-- <span class="picture-banner" style="display: none;">
-							<img class="banner-background" src="images/banner.jpg"/>
-						</span> -->
-	
-						<!-- <span class="video-banner">
-							<video width="100%" loop playsinline autoplay muted preload="yes">
+						<span class="video-banner">
+							<video width="100%" loop playsinline autoplay muted preload="yes" poster="images/banner.jpg">
 								<source src="images/banner.mp4" type="video/mp4">
 								<source src="images/banner.ogg" type="video/ogg">
 								<source src="images/banner.webm" type="video/webm">
 							</video>
-						</span> -->
+						</span>
 					</section>
 
 				<!-- Wrapper -->
@@ -255,11 +245,12 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-			<!-- <script>
+			<script>
 				Detectizr.detect({detectScreen: true});
+				console.log(Detectizr);
 				if (Detectizr.browser.name == 'safari' || Detectizr.device.type == 'mobile' || Detectizr.os.name == 'ios' || Detectizr.device.model == 'iphone' || Detectizr.device.model == 'android') {
 					$('body').toggleClass('safari', true);
 				}
-			</script> -->
+			</script>
 	</body>
 </html>
