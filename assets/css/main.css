@@ -3513,17 +3513,17 @@ input, select, textarea {
 		}
 
 		#banner:before {
-			-moz-transition: opacity 3s ease;
-			-webkit-transition: opacity 3s ease;
-			-ms-transition: opacity 3s ease;
-			transition: opacity 3s ease;
-			-moz-transition-delay: 1.25s;
-			-webkit-transition-delay: 1.25s;
-			-ms-transition-delay: 1.25s;
-			transition-delay: 1.25s;
+			-moz-transition: opacity 200s ease;
+			-webkit-transition: opacity 200s ease;
+			-ms-transition: opacity 200s ease;
+			transition: opacity 200s ease;
+			-moz-transition-delay: 150s;
+			-webkit-transition-delay: 150s;
+			-ms-transition-delay: 150s;
+			transition-delay: 150s;
 			content: '';
 			display: block;
-			background-color: #adadad;
+			background: linear-gradient(302deg, #ffffff 0%, #0097c750 100%);
 			height: 100%;
 			left: 0;
 			opacity: 0.45;
