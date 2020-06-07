@@ -3523,7 +3523,7 @@ input, select, textarea {
 			transition-delay: 1.25s;
 			content: '';
 			display: block;
-			background-color: #333333;
+			background-color: #adadad;
 			height: 100%;
 			left: 0;
 			opacity: 0.45;
